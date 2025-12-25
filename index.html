@@ -31,8 +31,24 @@ ology<!DOCTYPE html>
   </section>
 
   <section>
-    <h2>Contact</h2>
-    <p>Email: krishnavedicastrologer@gmail.com</p>
+  <h2>Contact Me</h2>
+
+  <form id="contact-form">
+    <label>Name</label>
+    <input type="text" name="name" required>
+
+    <label>Email</label>
+    <input type="email" name="email" required>
+
+    <label>Message</label>
+    <textarea name="message" rows="5" required></textarea>
+
+    <button type="submit">Send Message</button>
+  </form>
+
+  <p id="success-message" style="display:none; color:green;">
+    Message sent successfully! I will contact you soon.
+  </p>
   </section>
 
   <footer>
