@@ -9,7 +9,7 @@ ology<!DOCTYPE html>
 
 <script>
   (function(){
-    emailjs.init("YOUR_PUBLIC_KEY");
+    emailjs.init("yG2YcGoUlbj_BIPoh");
   })();
 
   document.getElementById("contact-form")
@@ -17,8 +17,8 @@ ology<!DOCTYPE html>
       event.preventDefault();
 
       emailjs.sendForm(
-        "YOUR_SERVICE_ID",
-        "YOUR_TEMPLATE_ID",
+        "service_dk2jx75",
+        "template_felpcb5",
         this
       ).then(function() {
           document.getElementById("success-message").style.display = "block";
